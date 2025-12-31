@@ -1,0 +1,114 @@
+/* Checkout Section Styles */
+.checkout-section {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+}
+
+.checkout-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.checkout-section hr {
+    width: 100px;
+    height: 3px;
+    background-color: #d4a373;
+    border: none;
+    margin: 0 auto 2rem auto;
+}
+
+.login-container {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    border: 1px solid #ddd;
+    margin-top: 2rem;
+}
+
+/* Flex row for label + input pair */
+.checkout-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+/* Each field takes 48% of the row */
+.checkout-field {
+    width: 48%;
+}
+
+.checkout-large-element {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.checkout-btn-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#checkout-form label {
+    font-weight: 600;
+    color: #444;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#checkout-form .form-control {
+    padding: 0.65rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    transition: border-color 0.2s ease;
+}
+
+#checkout-form .form-control:focus {
+    border-color: #d4a373;
+    box-shadow: 0 0 0 0.1rem rgba(212, 163, 115, 0.25);
+    outline: none;
+}
+
+#checkout-btn {
+    background-color: #b1681f;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#checkout-btn:hover {
+    background-color: #b08968;
+}
+
+.extra-section {
+    display: none;
+  }
+
+/* Responsive: stack fields on small screens */
+@media (max-width: 600px) {
+    .checkout-field {
+        width: 100%;
+    }
+
+    .checkout-section h2 {
+        font-size: 2rem;
+    }
+
+    #checkout-btn {
+        width: 100%;
+        font-size: 1rem;
+    }
+}

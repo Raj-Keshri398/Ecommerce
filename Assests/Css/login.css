@@ -1,0 +1,57 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.form-wrapper {
+  position: relative;
+  width: 400px;
+  margin: 40px auto; /* ↓ reduced from 120px to 40px */
+  overflow: hidden;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.form-slider {
+  display: flex;
+  width: 800px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.form-content {
+  width: 400px;
+  padding: 1.5rem; /* ↓ slightly reduced from 2rem */
+}
+
+.form-content h2 {
+  margin-bottom: 1rem;
+}
+
+.btn-link {
+  color: #c06020;
+  cursor: pointer;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  background-color: rgb(20, 117, 197);
+}
+
+/* Optional: Reduce footer top margin if needed */
+footer {
+  margin-top: 20px !important;
+}
+
+/* Responsive adjustment */
+@media screen and (max-width: 576px) {
+  .form-wrapper {
+    margin: 20px auto;
+  }
+}

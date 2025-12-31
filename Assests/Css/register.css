@@ -1,0 +1,122 @@
+/* Reset and layout */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fc;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+/* Register Section */
+.login-section {
+    background-color: #f4f5f7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0 50px;
+}
+
+.login-section h2 {
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.login-section hr {
+    width: 60px;
+    border: 2px solid #c06020;
+    margin: 0.5rem auto 2rem;
+}
+
+/* Form Container */
+.login-container {
+    max-width: 450px;
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    margin: 0 auto;
+}
+
+/* Form Inputs */
+.login-container .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.login-container label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #444;
+}
+
+.login-container input.form-control {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.login-container input.form-control:focus {
+    border-color: #c06020;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(192, 96, 32, 0.25);
+}
+
+/* Register Button */
+#register-btn {
+    background-color: #c06020;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+#register-btn:hover {
+    background-color: #b3541a;
+}
+
+/* Login Link */
+#login-url {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    color: #1a73e8;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#login-url:hover {
+    color: #0c56d0;
+    text-decoration: underline;
+}
+
+/* Typography */
+.form-weight-bold {
+    font-weight: 700;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+    .login-section {
+        padding-top: 80px;
+    }
+}

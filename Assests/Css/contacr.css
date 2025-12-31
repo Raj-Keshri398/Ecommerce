@@ -1,0 +1,105 @@
+/* Section base */
+.contact-section {
+    background-color: #fdfbf9;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Wrapper Flex Layout */
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Left Info Panel */
+.contact-info {
+    flex: 1 1 35%;
+    padding: 1rem;
+}
+
+.contact-info h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.contact-info hr {
+    width: 60px;
+    height: 3px;
+    background-color: #d4a373;
+    border: none;
+    margin: 1rem 0;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 1.2rem;
+}
+
+/* Form Area */
+.contact-form {
+    flex: 1 1 60%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Form Elements */
+.contact-form label {
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #d4a373;
+    box-shadow: 0 0 0 0.2rem rgba(212, 163, 115, 0.25);
+    outline: none;
+}
+
+/* Submit Button */
+.btn-custom {
+    background-color: #c26b14;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #b08968;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-info p {
+        text-align: center;
+    }
+}
