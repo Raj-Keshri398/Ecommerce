@@ -1,0 +1,14 @@
+online database name
+
+
+db name - (if0_39009084_db_heritage)
+root - (if0_39009084)  
+password  - (XwnCi7g56Pa)
+localhost - (sql111.infinityfree.com)
+
+
+
+https://shop-heritage-aroma.kesug.com/index.php - domain name
+
+
+infinityfree.com - website name
